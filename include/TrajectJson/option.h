@@ -5,12 +5,12 @@ namespace option {
 
 // DOM
 
-/*  json_alloc
+/*  json_allocator_t
  *  Currently, only fast_io::native_global_allocator is supported
  *  目前只支持 fast_io::native_global_allocator
  *  default: fast_io::native_global_allocator
  */
-using json_alloc = ::fast_io::native_global_allocator;
+using json_allocator_t = ::fast_io::native_global_allocator;
 
 /* json_int_t
 *  The integer type of JSON
